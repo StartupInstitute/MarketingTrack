@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET - Start of Your CSS*/
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('assets/fonts/Ubuntu-B-webfont.eot');
+    src: url('assets/fonts/Ubuntu-B-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/Ubuntu-B-webfont.woff') format('woff'),
+         url('assets/fonts/Ubuntu-B-webfont.ttf') format('truetype'),
+         url('assets/fonts/Ubuntu-B-webfont.svg#UbuntuBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{width: 1024px;
+	margin: 0 auto;
+	font-family: helvetica, Arial, sans-serif;}
+header {height:70px;}
+p {font-size:17px;
+	line-height:1.3em;
+	margin-top: .75em;}	
+h1{ font-family: 'UbuntuBold';
+	 font-weight: normal;
+    font-style: normal;
+	font-size:60px;
+	float:left;
+   margin-top: 10px;}
+h2{ font-family: 'UbuntuBold';
+	font-size:24px;
+   margin: 20px 0 15px 0;
+   text-align: center; 
+   font-weight: bold; }
+li {list-style: none;}
+a {text-decoration: none;
+	color:black;
+	font-weight:bold;}
+header ul li {float:right;
+	padding-left: 30px;
+	margin-top:44px;
+	font-size: 20px;}
+footer ul li {float:left;
+	padding-right: 30px;
+	margin:10px 0 0 0px;
+	font-size: 20px;}
+#content {margin-bottom: 20px;
+	height: 925px;
+	clear: both; }
+section {width:55%;
+		float: left;}
+section p {
+	margin-top:30px;}
+aside {width: 400px;
+		float:right;
+		margin-top:30px;}
