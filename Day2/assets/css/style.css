@@ -90,7 +90,7 @@ footer ul li {float:left;
 	margin:10px 0 0 0px;
 	font-size: 20px;}
 #content {margin-bottom: 20px;
-	height: 925px;
+	overflow: hidden;
 	clear: both; }
 section {width:55%;
 		float: left;}
